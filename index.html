@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="ex.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+        <div id = 'dados'>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <!-- cria as bolinhas de marcação -->
+                <LABEl>Masculino</LABEl>
+                <input type="radio" name="radsex" id="fem">
+                <LABEl>Feminino</LABEl>
+            </p>
+
+            <p>
+                <input type="button" value="calcular" onclick="calcular()">
+            </p>
+
+            <div id = 'res'>
+                Preencha os dados acima para verificação de resultado!
+            </div>
+        </div>
+        <div id='res'>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Eryka_gs</p>
+    </footer>
+    <script src="ex.js"></script>
+
+
+
+</body>
+
+</html>
